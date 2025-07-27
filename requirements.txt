@@ -1,0 +1,12 @@
+leidenalg==0.10.2
+matplotlib==3.10.3
+networkx==3.4.2
+numpy==2.3.1
+pandas==2.3.1
+python_igraph==0.11.8
+python_louvain==0.16
+scanpy==1.11.3
+scikit_learn==1.7.1
+scipy==1.16.0
+torch==2.7.0
+umap_learn==0.5.7
