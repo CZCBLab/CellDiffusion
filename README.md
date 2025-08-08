@@ -50,7 +50,14 @@ jupyter notebook --ip="0.0.0.0" --allow-root
 
 # Tutorials:
 
-See all tutorials for different tasks in the 'tutorials' folder. 
+See all tutorials for different tasks, including
+
+data integration,
+label transfer,
+unsupervised clustering,
+trajectory inference,
+
+in the 'tutorials' folder.
 
 # Example data:
 
