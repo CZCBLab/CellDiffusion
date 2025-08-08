@@ -1,3 +1,5 @@
+![CellDiffusion](https://github.com/CZCBLab/CellDiffusion/blob/main/CellDiffusion_1.png)
+
 # About:
 Single-cell RNA sequencing data integration is crucial but remains challenging, particularly in the presence of cell-type-specific batch effects and critical biological variations across batches, 
 such as imbalanced cell compositions and non-overlapping cell types. Despite hundreds of analysis tools developed over the past decade, robust solutions to overcome this challenge are still lacking. 
@@ -10,3 +12,5 @@ single-cell transcriptomic integrative analysis.
 
 This repository contains the source code for the paper: "CellDiffusion: Enhancing single-cell data integration with accurate inference of cell-cell association", 
 Yu-Chen Liu#, Ziying Huang#, Simon Liang Lu, Lei Jiang, Zedong Lin, Jou-Hsuan Lee, Vijaya B. Kolachalama, Rong Li*, Dong Xu*, Juexin Wang*, Heng Pan*, & Chao Zhang*, in preparation.
+
+![CellDiffusion](https://github.com/CZCBLab/CellDiffusion/blob/main/CellDiffusion_2.png)
