@@ -14,3 +14,40 @@ This repository contains the source code for the paper: "CellDiffusion: Enhancin
 Yu-Chen Liu#, Ziying Huang#, Simon Liang Lu, Lei Jiang, Zedong Lin, Jou-Hsuan Lee, Vijaya B. Kolachalama, Rong Li*, Dong Xu*, Juexin Wang*, Heng Pan*, & Chao Zhang*, in preparation.
 
 ![CellDiffusion](https://github.com/CZCBLab/CellDiffusion/blob/main/CellDiffusion_2.png)
+
+
+# Installation:
+
+CellDiffusion is available on PyPI. To install CellDiffusion, run the following command:
+```
+pip install celldiffusion
+```
+Or grab this source codes:
+```
+git clone https://github.com/CZCBLab/CellDiffusion.git
+cd CellDiffusion
+```
+Python=3.9.9 is required. See other requirements in the file requirements.txt.
+
+Run CellDiffuision in Docker:
+```
+git clone https://github.com/CZCBLab/CellDiffusion.git
+cd CellDiffusion
+
+# Build the Docker image
+sudo docker build -t celldiffusion .
+
+# Run Docker container with CPU
+sudo docker run -it -p 8888:8888 --restart always celldiffusion bash
+
+# Or run Docker container with GPU
+sudo docker run -it -p 8888:8888 --restart always --gpus all celldiffusion bash
+
+# Start Jupyter Notebook
+jupyter notebook --ip="0.0.0.0" --allow-root
+```
+'celldiffusion' could be changed into your image name. Please refer to Docker and NVIDIA Container Toolkit for more details about Docker installation.
+
+# Tutorials:
+
+See all tutorials for different tasks in the 'tutorials' folder.
