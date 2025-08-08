@@ -50,4 +50,8 @@ jupyter notebook --ip="0.0.0.0" --allow-root
 
 # Tutorials:
 
-See all tutorials for different tasks in the 'tutorials' folder.
+See all tutorials for different tasks in the 'tutorials' folder. 
+
+# Example data
+
+Download the example data used in CellDiffusion tutorials from: https://drive.google.com/drive/folders/1A7Y-Skmfe3UPKF_wJl97WK49dabAptZk?usp=share_link.
