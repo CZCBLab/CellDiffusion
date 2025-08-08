@@ -55,7 +55,7 @@ See all tutorials for different tasks, including
 data integration,
 label transfer,
 unsupervised clustering,
-trajectory inference,
+and trajectory inference,
 
 in the 'tutorials' folder.
 
